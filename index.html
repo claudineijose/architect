@@ -4,504 +4,359 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Siltec - Assistência e Soluções em Tecnologia</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Index - eNno Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: UpConstruction - v1.1.0
-  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Template Name: eNno
+  * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
-<body>
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-         <img src="assets/img/logo.png" alt="">
-       
+        <img src="assets/img/logoAS.png" alt="">
+
       </a>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">Sobre</a></li>
-			<li><a href="reparos.html">Reparos</a></li>
-		 
-         
-            <li class="dropdown"><a href="locacao.html"><span>Locação</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="locacao.html">Locação de notebooks</a></li>
-			</ul>
-          </li>
-          <li><a href="contact.html">Contato</a></li>
-		  <li><a href="blog.html">Blog</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <!-- Removido Dropdown -->
+          <li><a href="#contact">Contato</a></li>
         </ul>
-      </nav><!-- .navbar -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero">
+  <main class="main">
 
-    <div class="info d-flex align-items-center">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down"> <span>SILTEC</span></h2>
-            <p data-aos="fade-up">Assistência e soluções em tecnologia. Não gaste dinheiro comprando equipamento novo!</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="#alt-services" class="btn-get-started">Saiba mais</a>
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+            <h1>Soluções inteligentes em Tecnologia</h1>
+            <p> Desenvolvemos soluções em TI com eficiência e praticidade.</p>
+
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    </section><!-- /Hero Section -->
 
-      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/computador-1.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/computador-2.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/computador-3.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/computador-4.jpg)"></div>
-      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/computador-5.jpg)"></div>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Sobre nós<br></span>
+        <h2>Sobre nós</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
 
-      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-
-    </div>
-
-  </section><!-- End Hero Section -->
-
-  <main id="main">
-	  <!-- ======= Alt Services Section ======= -->
-    <section id="alt-services" class="alt-services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row justify-content-around gy-4">
-          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/porque.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
-
-          <div class="col-lg-5 d-flex flex-column justify-content-center">
-            <h3>Por quê escolher a Siltec?</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-              <i class="bi bi-wrench flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">A melhor solução em reparos</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-coin flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Menor custo</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-truck flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Leva e traz</a></h4>
-                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-patch-check flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Garantia</a></h4>
-                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
-              </div>
-            </div><!-- End Icon Box -->
-
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Sobre a Architect Systems</h3>
+            <p class="fst-italic">
+              A Architect Systems Serviços de Informática LTDA oferece soluções completas em <strong>tecnologia da
+                informação</strong>, com foco em <strong>suporte técnico</strong>, <strong>manutenção de
+                sistemas</strong> e <strong>desenvolvimento de soluções tecnológicas personalizadas</strong>.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Atendemos empresas e
+                  profissionais que buscam eficiência, agilidade e qualidade nos serviços de TI.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Nossa equipe trabalha com foco em inovação, sempre em busca da
+                  melhor performance, segurança e resultados para os projetos dos nossos clientes.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Na Architect Systems tecnologia é a ferramenta para transformar
+                  negócios.</span></li>
+            </ul>
+            <p>
+              Nosso compromisso é entregar <strong>excelência, inovação e melhoria contínua</strong>, garantindo os
+              melhores resultados e a máxima satisfação para quem confia no nosso trabalho.
+            </p>
           </div>
         </div>
-
       </div>
-    </section><!-- End Alt Services Section -->
 
-    
 
-    <!-- ======= Constructions Section ======= -->
-    
-   <!-- End Constructions Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
-          <h2>Nossos serviços</h2>
-          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
-        </div>
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <!-- <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-gears"></i>
-              </div>
-              <h3>Reparos</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="reparos.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Clients</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Stats Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-laptop"></i>
-              </div>
-              <h3>Locação de Notebooks</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="locacao.html" class="readmore stretched-link">Saiba mais&nbsp;<i class="bi bi-arrow-right"></i></a>
+    <!-- <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Projects</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Stats Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-memory"></i>
-              </div>
-              <h3>Upgrade: Equipamento lento</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="reparos.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+    <!-- <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hours Of Support</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Stats Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-download"></i>
-              </div>
-              <h3>Instalação e atualização de softwares</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="reparos.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+    <!-- <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Workers</p>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-server"></i>
-              </div>
-              <h3>Recuperação de dados</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="reparos.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-computer"></i>
-              </div>
-              <h3>Limpeza interna</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="reparos.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
+          </div>End Stats Item -->
+    <!-- 
         </div>
 
-      </div>
-    </section><!-- End Services Section -->
+      </div> -->
 
-    
 
-    <!-- ======= Features Section ======= -->
-    <!-- End Features Section -->
 
-    <!-- ======= Our Projects Section ======= -->
-   
-        
-   <!-- End Our Projects Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    
-           <!-- End testimonial item -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-            <!-- End Testimonials Section -->
-	  
-	  <!-- ======= Get Started Section ======= -->
-    <section id="get-started" class="get-started section-bg">
-      <div class="container">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Contatos</span>
+        <h2>Contatos</h2>
+        <p> Entre em contato conosco para solicitar um orçamento, tirar dúvidas ou saber mais sobre nossos serviços.</p>
+      </div><!-- End Section Title -->
 
-        <div class="row justify-content-between gy-4">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
-            <div class="content">
-              <h3>Solicite um orçamento</h3>
-              <p>Precisa tirar dúvidas, pedir orçamento ou solicitar um serviço? Preencha o formulário ao lado e logo entraremos em contato com você.</p>
+        <div class="row gy-4">
+
+          <div class="col-lg-12">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Endereço</h3>
+                  <p> Rua Frei Gaspar Santa Tereza - Guaianases - São Paulo, SP - CEP: 08490-040</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Telefone</h3>
+                  <p>(11) 990210246</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>contato@architectsystems.com.br</p>
+                </div>
+              </div><!-- End Info Item -->
+
             </div>
           </div>
+          <!-- 
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
 
-          <div class="col-lg-5" data-aos="fade">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>COmo podemos ajudar?</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
-              <div class="row gy-3">
-
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Nome" required>
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Nome</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required>
                 </div>
 
-                <div class="col-md-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Telefone" required>
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required></textarea>
+                  <label for="subject-field" class="pb-2">Assunto</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required>
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Messagem</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Carregando</div>
+                  <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Sua mensagem foi enviada! Logo entraremos em contato com você! </div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Enviar</button>
+                  <button type="submit">Send Message</button>
                 </div>
 
               </div>
             </form>
-          </div><!-- End Quote Form -->
+          </div>End Contact Form -->
 
         </div>
 
       </div>
-    </section><!-- End Get Started Section -->
 
-    <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-blog-posts" class="recent-blog-posts">
-      <div class="container" data-aos="fade-up">
+    </section><!-- /Contact Section -->
 
-    
-    
-  <div class=" section-header">
-        <h2>Blog</h2>
-        <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>
-      </div>
+  </main>
 
-      <div class="row gy-5">
-
-        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="post-item position-relative h-100">
-
-            <div class="post-img position-relative overflow-hidden">
-              <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-              <span class="post-date">December 12</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">5 motivos para optar pela locação de notebooks</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                </div>
-              </div>
-
-              <hr>
-
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="post-item position-relative h-100">
-
-            <div class="post-img position-relative overflow-hidden">
-              <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
-              <span class="post-date">July 17</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">Por que a locação de curto prazo é ideal para o modelo de trabalho híbrido?</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
-                </div>
-              </div>
-
-              <hr>
-
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-        <div class="col-xl-4 col-md-6">
-          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
-
-            <div class="post-img position-relative overflow-hidden">
-              <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
-              <span class="post-date">September 05</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">Backup em nuvem: porque ele é mais seguro do que o tradicional?</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                </div>
-              </div>
-
-              <hr>
-
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-      
-    </section>
-    <!-- End Recent Blog Posts Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
-    <div class="footer-content position-relative">
+    <!-- <div class="footer-newsletter">
       <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>SILTEC</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links d-flex mt-3">
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe">
               </div>
-            </div>
-          </div><!-- End footer info column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Links úteis</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">Sobre nós</a></li>
-              <li><a href="reparos.html">Reparos</a></li>
-              <li><a href="locacao.html">Locação</a></li>
-              <li><a href="contact.html">Orçamento</a></li>
-            </ul>
-          </div><!-- End footer links column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nossos serviços</h4>
-            <ul>
-              <li><a href="locacao.html">Locação de Notebooks</a></li>
-              <li><a href="reparos.html">Reparos</a></li>
-              <li><a href="reparos.html">Troca de baterias</a></li>
-              <li><a href="reparos.html">Upgrades</a></li>
-              <li><a href="reparos.html">Limpeza interna</a></li>
-            </ul>
-          </div><!-- End footer links column-->
-
-     
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
         </div>
       </div>
+    </div> -->
+
+    <!-- <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">eNno</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div> -->
+    <!-- 
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul> -->
     </div>
 
-    <div class="footer-legal text-center position-relative">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Siltec - Assistência e Soluções em Tecnologia</span></strong>. Todos os direitos reservados
-        </div>
-        
+    <!-- <div class="col-lg-4 col-md-12">
+      <h4>Follow Us</h4>
+      <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+      <div class="social-links d-flex">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div> -->
+
+    </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">ARCHITECT SYSTEMS</strong> <span>Todos os direitos
+          reservados </span></p>
+      <div class="credits">
+
       </div>
     </div>
 
   </footer>
-  <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
